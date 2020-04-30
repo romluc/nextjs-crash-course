@@ -13,7 +13,7 @@ const Layout = (props) => (
       ></link>
     </Head>
     <Navbar />
-    {props.children}
+    <div className='container'>{props.children}</div>
   </div>
 );
 
