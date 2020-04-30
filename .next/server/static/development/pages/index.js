@@ -115,6 +115,123 @@ module.exports = require("next/dist/next-server/lib/utils.js");
 
 /***/ }),
 
+/***/ "./components/Footer.js":
+/*!******************************!*\
+  !*** ./components/Footer.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/romulo/Documents/dev/Traversy/nextjs-crash-course/components/Footer.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const Footer = () => __jsx("footer", {
+  class: " page-footer text-center fixed-bottom align-center bg-dark py-2",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 2,
+    columnNumber: 3
+  }
+}, __jsx("div", {
+  className: "container d-flex justify-content-around",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3,
+    columnNumber: 5
+  }
+}, __jsx("span", {
+  className: "text-white-50 mr-4",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4,
+    columnNumber: 7
+  }
+}, __jsx("svg", {
+  class: "bi bi-caret-right",
+  width: "1em",
+  height: "1em",
+  viewBox: "0 0 16 16",
+  fill: "currentColor",
+  xmlns: "http://www.w3.org/2000/svg",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5,
+    columnNumber: 9
+  }
+}, __jsx("path", {
+  "fill-rule": "evenodd",
+  d: "M6 12.796L11.481 8 6 3.204v9.592zm.659.753l5.48-4.796a1 1 0 000-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 001.659.753z",
+  "clip-rule": "evenodd",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 11
+  }
+})), "Made by", ' ', __jsx("a", {
+  className: "text-white-50",
+  href: "https://github.com/romluc",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20,
+    columnNumber: 9
+  }
+}, "romluc"), ' '), __jsx("span", {
+  className: "text-white-50 ml-4",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25,
+    columnNumber: 7
+  }
+}, __jsx("svg", {
+  class: "bi bi-caret-right",
+  width: "1em",
+  height: "1em",
+  viewBox: "0 0 16 16",
+  fill: "currentColor",
+  xmlns: "http://www.w3.org/2000/svg",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26,
+    columnNumber: 9
+  }
+}, __jsx("path", {
+  "fill-rule": "evenodd",
+  d: "M6 12.796L11.481 8 6 3.204v9.592zm.659.753l5.48-4.796a1 1 0 000-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 001.659.753z",
+  "clip-rule": "evenodd",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 34,
+    columnNumber: 11
+  }
+})), "Powered by", ' ', __jsx("a", {
+  className: "text-white-50",
+  href: "https://www.coindesk.com/price/bitcoin",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 41,
+    columnNumber: 9
+  }
+}, "CoinDesk"), ' ')));
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
 /***/ "./components/Layout.js":
 /*!******************************!*\
   !*** ./components/Layout.js ***!
@@ -129,9 +246,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
 var _jsxFileName = "/Users/romulo/Documents/dev/Traversy/nextjs-crash-course/components/Layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -139,21 +258,21 @@ const Layout = props => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 5,
+    lineNumber: 6,
     columnNumber: 3
   }
 }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6,
+    lineNumber: 7,
     columnNumber: 5
   }
 }, __jsx("title", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7,
+    lineNumber: 8,
     columnNumber: 7
   }
 }, "BitzPrice"), __jsx("link", {
@@ -164,14 +283,14 @@ const Layout = props => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8,
+    lineNumber: 9,
     columnNumber: 7
   }
 })), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15,
+    lineNumber: 16,
     columnNumber: 5
   }
 }), __jsx("div", {
@@ -179,10 +298,17 @@ const Layout = props => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16,
+    lineNumber: 17,
     columnNumber: 5
   }
-}, props.children));
+}, props.children), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18,
+    columnNumber: 5
+  }
+}));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -347,11 +473,11 @@ class Prices extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           lineNumber: 13,
           columnNumber: 11
         }
-      }, this.props.bpi.USD.code), __jsx("strong", {
+      }, this.props.bpi.USD.code, '   '), __jsx("strong", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14,
+          lineNumber: 17,
           columnNumber: 11
         }
       }, this.props.bpi.USD.rate));
@@ -361,7 +487,7 @@ class Prices extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
+          lineNumber: 22,
           columnNumber: 9
         }
       }, "Bitcoin rate for ", this.props.bpi.GBP.description, ":", ' ', __jsx("span", {
@@ -369,14 +495,14 @@ class Prices extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 24,
           columnNumber: 11
         }
       }, this.props.bpi.GBP.code), __jsx("strong", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 25,
           columnNumber: 11
         }
       }, this.props.bpi.GBP.rate));
@@ -386,7 +512,7 @@ class Prices extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27,
+          lineNumber: 30,
           columnNumber: 9
         }
       }, "Bitcoin rate for ", this.props.bpi.EUR.description, ":", ' ', __jsx("span", {
@@ -394,14 +520,14 @@ class Prices extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29,
+          lineNumber: 32,
           columnNumber: 11
         }
       }, this.props.bpi.EUR.code), __jsx("strong", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 33,
           columnNumber: 11
         }
       }, this.props.bpi.EUR.rate));
@@ -411,7 +537,7 @@ class Prices extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35,
+        lineNumber: 38,
         columnNumber: 7
       }
     }, __jsx("ul", {
@@ -419,14 +545,14 @@ class Prices extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36,
+        lineNumber: 39,
         columnNumber: 9
       }
     }, list), __jsx("br", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37,
+        lineNumber: 40,
         columnNumber: 9
       }
     }), __jsx("select", {
@@ -437,7 +563,7 @@ class Prices extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38,
+        lineNumber: 41,
         columnNumber: 9
       }
     }, __jsx("option", {
@@ -445,7 +571,7 @@ class Prices extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42,
+        lineNumber: 45,
         columnNumber: 11
       }
     }, "USD"), __jsx("option", {
@@ -453,7 +579,7 @@ class Prices extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43,
+        lineNumber: 46,
         columnNumber: 11
       }
     }, "GBP"), __jsx("option", {
@@ -461,7 +587,7 @@ class Prices extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44,
+        lineNumber: 47,
         columnNumber: 11
       }
     }, "EUR")));

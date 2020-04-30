@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const Layout = (props) => (
   <div>
@@ -14,6 +15,7 @@ const Layout = (props) => (
     </Head>
     <Navbar />
     <div className='container'>{props.children}</div>
+    <Footer />
   </div>
 );
 
