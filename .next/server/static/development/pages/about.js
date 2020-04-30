@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -115,6 +115,71 @@ module.exports = require("next/dist/next-server/lib/utils.js");
 
 /***/ }),
 
+/***/ "./components/Layout.js":
+/*!******************************!*\
+  !*** ./components/Layout.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
+var _jsxFileName = "/Users/romulo/Documents/dev/Traversy/nextjs-crash-course/components/Layout.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const Layout = props => __jsx("div", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5,
+    columnNumber: 3
+  }
+}, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6,
+    columnNumber: 5
+  }
+}, __jsx("title", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7,
+    columnNumber: 7
+  }
+}, "BitzPrice"), __jsx("link", {
+  href: "https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/lux/bootstrap.min.css",
+  rel: "stylesheet",
+  integrity: "sha384-oOs/gFavzADqv3i5nCM+9CzXe3e5vXLXZ5LZ7PplpsWpTCufB7kqkTlC9FtZ5nJo",
+  crossOrigin: "anonymous",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8,
+    columnNumber: 7
+  }
+})), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 5
+  }
+}), props.children);
+
+/* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
 /***/ "./components/Navbar.js":
 /*!******************************!*\
   !*** ./components/Navbar.js ***!
@@ -133,58 +198,96 @@ var _jsxFileName = "/Users/romulo/Documents/dev/Traversy/nextjs-crash-course/com
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const Navbar = () => __jsx("ul", {
+const Navbar = () => __jsx("nav", {
+  className: "navbar navbar-expand navbar-dark bg-dark mb-4",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4,
     columnNumber: 3
   }
-}, __jsx("li", {
+}, __jsx("div", {
+  className: "container",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5,
     columnNumber: 5
   }
-}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/",
+}, __jsx("a", {
+  className: "navbar-brand",
+  href: "#",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6,
     columnNumber: 7
   }
-}, __jsx("a", {
+}, "BitzPrice"), __jsx("div", {
+  className: "collapse navbar-collapse",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7,
-    columnNumber: 9
+    lineNumber: 9,
+    columnNumber: 7
   }
-}, "Home"))), __jsx("li", {
+}, __jsx("ul", {
+  className: "navbar-nav ml-auto",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 10,
-    columnNumber: 5
+    columnNumber: 9
+  }
+}, __jsx("li", {
+  className: "nav-item",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11,
+    columnNumber: 11
+  }
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12,
+    columnNumber: 13
+  }
+}, __jsx("a", {
+  className: "nav-link",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 15
+  }
+}, "Home"))), __jsx("li", {
+  className: "nav-item",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 11
   }
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/about",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11,
-    columnNumber: 7
+    lineNumber: 17,
+    columnNumber: 13
   }
 }, __jsx("a", {
+  className: "nav-link",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12,
-    columnNumber: 9
+    lineNumber: 18,
+    columnNumber: 15
   }
-}, "About"))));
+}, "About")))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
 
@@ -1891,47 +1994,47 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Navbar */ "./components/Navbar.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 var _jsxFileName = "/Users/romulo/Documents/dev/Traversy/nextjs-crash-course/pages/about.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const About = () => __jsx("div", {
+const About = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4,
     columnNumber: 3
   }
-}, __jsx(_components_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
+}, __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5,
     columnNumber: 5
   }
-}), __jsx("h1", {
+}, __jsx("h1", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6,
-    columnNumber: 5
+    columnNumber: 7
   }
 }, "About BitzPrice"), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7,
-    columnNumber: 5
+    columnNumber: 7
   }
-}, "Application to view Bitcoin prices"));
+}, "Application to view Bitcoin prices")));
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -1940,6 +2043,17 @@ const About = () => __jsx("div", {
 
 module.exports = __webpack_require__(/*! /Users/romulo/Documents/dev/Traversy/nextjs-crash-course/pages/about.js */"./pages/about.js");
 
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 
